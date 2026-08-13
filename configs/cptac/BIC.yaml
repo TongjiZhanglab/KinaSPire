@@ -1,0 +1,40 @@
+# configs/cptac/BIC.yaml
+
+data:
+  val_size: 0.30
+  batch_size: 32
+  fraction_gs: 0.1
+
+model:
+  dropout_prior: 0.5
+  dropout_meta: 0.3
+  dropout_decoder: 0.3
+
+training:
+  num_epochs: 400
+  cvs: 5
+
+refit:
+  num_epochs: 100
+  iterations: 1
+  resample: true
+
+optimizer:
+  name: Adam
+  learning_rate: 1e-4
+  weight_decays:
+    - 1e-07
+  kwargs: {}
+  parameter_kwargs: {}
+
+scheduler:
+  name: CosineAnnealingLR
+  kwargs:
+    T_max: 10
+
+pruning:
+  eps_factor: 10
+  fill_zeroed: true
+
+runtime:
+  device: cuda:1
