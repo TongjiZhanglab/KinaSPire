@@ -7,8 +7,8 @@ data:
 
 model:
   dropout_prior: 0.05
-  dropout_meta: 0.0
-  dropout_decoder: 0.0
+  dropout_meta: 0.1
+  dropout_decoder: 0.1
 
 training:
   num_epochs: 400
