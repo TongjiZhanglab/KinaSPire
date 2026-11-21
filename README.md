@@ -135,7 +135,7 @@ Configs live in `configs/`:
 | --- | --- |
 | `configs/toy.yaml` | toy example |
 | `configs/perturbation.yaml` | perturbation experiments |
-| `configs/pdc/<COHORT>.yaml` | Tumor cohorts (BIC, CA, CCRCC, GBM, HCC, HNSCC, LSCC, LUAD, OSC, PDA, UCEC) |
+| `configs/pdc/<COHORT>.yaml` | tumor cohorts (BIC, CA, CCRCC, GBM, HCC, HNSCC, LSCC, LUAD, OSC, PDA, UCEC) |
 
 Set `runtime.device` in the YAML to `cpu` or a CUDA device.
 
