@@ -1,12 +1,12 @@
-# configs/cptac/UCEC.yaml
+# configs/pdc/CA.yaml
 
 data:
   val_size: 0.30
-  batch_size: 32
+  batch_size: 16
   fraction_gs: 0.1
 
 model:
-  dropout_prior: 0.1
+  dropout_prior: 0.0
   dropout_meta: 0.5
   dropout_decoder: 0.5
 

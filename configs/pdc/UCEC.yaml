@@ -1,4 +1,4 @@
-# configs/cptac/LUAD.yaml
+# configs/pdc/UCEC.yaml
 
 data:
   val_size: 0.30
@@ -6,9 +6,9 @@ data:
   fraction_gs: 0.1
 
 model:
-  dropout_prior: 0.05
-  dropout_meta: 0.1
-  dropout_decoder: 0.1
+  dropout_prior: 0.1
+  dropout_meta: 0.5
+  dropout_decoder: 0.5
 
 training:
   num_epochs: 400

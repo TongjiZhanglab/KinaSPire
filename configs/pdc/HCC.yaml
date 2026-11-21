@@ -1,4 +1,4 @@
-# configs/cptac/HCC.yaml
+# configs/pdc/HCC.yaml
 
 data:
   val_size: 0.30

@@ -1,4 +1,4 @@
-# configs/cptac/PDA.yaml
+# configs/pdc/PDA.yaml
 
 data:
   val_size: 0.30

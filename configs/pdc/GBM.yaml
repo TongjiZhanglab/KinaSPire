@@ -1,12 +1,12 @@
-# configs/cptac/LSCC.yaml
+# configs/pdc/GBM.yaml
 
 data:
   val_size: 0.30
-  batch_size: 32
+  batch_size: 16
   fraction_gs: 0.1
 
 model:
-  dropout_prior: 0.0
+  dropout_prior: 0.3
   dropout_meta: 0.0
   dropout_decoder: 0.0
 

@@ -1,14 +1,14 @@
-# configs/cptac/HNSCC.yaml
+# configs/pdc/LUAD.yaml
 
 data:
   val_size: 0.30
-  batch_size: 16
+  batch_size: 32
   fraction_gs: 0.1
 
 model:
   dropout_prior: 0.05
-  dropout_meta: 0.5
-  dropout_decoder: 0.5
+  dropout_meta: 0.1
+  dropout_decoder: 0.1
 
 training:
   num_epochs: 400

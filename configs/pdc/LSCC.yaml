@@ -1,14 +1,14 @@
-# configs/cptac/CA.yaml
+# configs/pdc/LSCC.yaml
 
 data:
   val_size: 0.30
-  batch_size: 16
+  batch_size: 32
   fraction_gs: 0.1
 
 model:
   dropout_prior: 0.0
-  dropout_meta: 0.5
-  dropout_decoder: 0.5
+  dropout_meta: 0.0
+  dropout_decoder: 0.0
 
 training:
   num_epochs: 400

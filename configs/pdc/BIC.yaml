@@ -1,4 +1,4 @@
-# configs/cptac/OSC.yaml
+# configs/pdc/BIC.yaml
 
 data:
   val_size: 0.30

@@ -135,7 +135,7 @@ Configs live in `configs/`:
 | --- | --- |
 | `configs/toy.yaml` | toy example |
 | `configs/perturbation.yaml` | perturbation experiments |
-| `configs/cptac/<COHORT>.yaml` | CPTAC tumor cohorts (BIC, CA, CCRCC, GBM, HCC, HNSCC, LSCC, LUAD, OSC, PDA, UCEC) |
+| `configs/pdc/<COHORT>.yaml` | Tumor cohorts (BIC, CA, CCRCC, GBM, HCC, HNSCC, LSCC, LUAD, OSC, PDA, UCEC) |
 
 Set `runtime.device` in the YAML to `cpu` or a CUDA device.
 
@@ -187,7 +187,7 @@ reproduction/perturbation_based_benchmark/
 
 ### Tumor-based benchmark
 
-Compares the same methods across 11 CPTAC cohorts using activating phosphosite labels. The benchmark can be reproduced using:
+Compares the same methods across 11 cancer types using activating phosphosite labels. The benchmark can be reproduced using:
 
 ```bash
 python reproduction/tumor_based_benchmark/scripts/run_benchmark.py
